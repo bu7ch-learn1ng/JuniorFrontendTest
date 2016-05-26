@@ -1,7 +1,8 @@
 function Search(){}
+
 var allRepos = new AllRepos();
 
-Search.prototype.fetchFromApi = function (username) {
+Search.prototype.fetchFromApi = function(username) {
 
   document.getElementById('text').value = '';
 
