@@ -2,6 +2,7 @@
 <html>
   <head lang='en'>
     <meta charset='utf-8'>
+    <link rel='stylesheet' href='public/styles/master.css'>
     <script src='src/userProfile.js' defer></script>
     <script src='src/allRepos.js' defer></script>
     <script src='src/search.js' defer></script>
@@ -12,6 +13,11 @@
     <div id='search'>
       <input id='text' type='text' placeholder='Search username...'/>
       <button id='button' onclick=(runSearch(showResults()))>Search</button>
+      <div id='message'></div>
+      <div id='result'>
+        <div id='profile'></div>
+        <div id='repos'></div>
+      </div>
     </div>
   </body>
 </html>

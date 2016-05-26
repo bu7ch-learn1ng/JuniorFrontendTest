@@ -20,9 +20,9 @@ AllRepos.prototype.showList = function (repos, user) {
         forks = document.createTextNode(' ' + info.forks + ' '),
         forkImg = document.createElement("img"),
         starImg = document.createElement("img");
-        forkImg.src = 'fork.png';
+        forkImg.src = 'public/images/fork.png';
         forkImg.style.height = '11px';
-        starImg.src = 'star.png';
+        starImg.src = 'public/images/star.png';
         starImg.style.height = '15px';
         starImg.style.margin = '-1px';
 
