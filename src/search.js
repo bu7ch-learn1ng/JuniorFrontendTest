@@ -1,4 +1,5 @@
 function Search(){}
+var allRepos = new AllRepos();
 
 Search.prototype.fetchFromApi = function (username) {
 
@@ -56,7 +57,6 @@ function _fetchRepoDetails(user, repos) {
 
 function _storeRepoDetails(data, user){
   var repoDetails = [];
-
   for(var repo in data) {
     var info = data[repo];
     repoDetails.push({
