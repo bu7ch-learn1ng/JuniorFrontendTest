@@ -7,8 +7,7 @@ var profile = new Profile();
 AllRepos.prototype.showList = function (repos, user) {
   profile.create(user);
   profile.div.style = '';
-  var div = document.getElementById('repos');
-  div.textContent = '';
+  this.div.style = '';
 
   var ul = document.createElement('ul');
 
